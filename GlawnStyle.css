@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 80px;
+    text-align: center;
+    color:#0ca319;
+    border: #000000;
+    border-width: 5px;
+    font-size: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+
+.headerTop{
+    height: 120px;
+}
+/* Dropdown button */
+.dropbtn{
+    
+    background-color:rgb(68, 146, 110);
+    color:white;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    position: relative;
+    left: 70px;
+    bottom:30px;
+    border-radius: 15px;
+    
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display:table-row;
+    
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.logo{
+    height: auto;
+    max-height: 80px;
+    max-width: 100%;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 0px;;
+    transform: rotate(1deg);
+    position:relative;
+    left:10;
+    top:20;
+}
+
+.topIndex {
+    height: 400px;
+    background-attachment:scroll;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.527), rgba(0 ,0, 0, 0.5)), url("img/house.jpg");
+     
+}
+
+
+
+.topIndex > h1{
+    text-align: center;
+    color:#ffffff;
+    font-size: 200%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right:10px;
+
+ }
+
+
+
+ .topIndex > p{
+    text-align: center;
+    color:#ffffff;
+    font-size: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right:10px;
+ }
+
+#line1{
+    text-align: center;
+    color:#ffffff;
+    font-size: 150%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right:10px;
+}
+#line2{
+    text-align: center;
+    color:#ffffff;
+    font-size: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right:10px;
+}
+
+#line3{
+    text-align: center;
+    color:#ffffff;
+    font-size: 150%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 80px;
+    padding-left: 10px;
+    padding-right:10px;
+}
+
+#line4{
+    text-align: center;
+    color:#ffffff;
+    font-size: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right:10px;
+}
+.middleIndex {
+    background-image: linear-gradient(rgba(0,0,0,0.527), rgba(0 ,0, 0, 0.25)), url("img/mansionHill.jpg");
+    height:600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    
+    
+    
+}
+
+.mowingInfo {
+    text-align: center;
+    color:#ffffff;
+    font-size: 150%;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right:10px;
+}
+
+.middleIndex > p{
+    text-align: center;
+    color:#ffffff;
+    font-size: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right:10px;
+}
+
+
+.about > h2{
+    text-align: center;
+    color:#000000;
+    font-size: 150%;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right:10px;
+}
+
+.about > p{
+    text-align: center;
+    color:#000000;
+    font-size: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-bottom:40px;
+}
+.middleIndex > h1 {
+    text-align: center;
+    color:#fffdd0;
+}
+
+
+
+/* Gallery Page Starts Here*/
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 15px;;
+    float: left;
+    width: 180px;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    
+}
+
+.desc {
+    text-align: center;
+}
+
+.galleryStripes p {
+    text-align: center;
+    color:#000000;
+    font-size: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-bottom:40px;
+
+}
+
+
+
+
+
+
