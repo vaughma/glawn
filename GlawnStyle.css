@@ -29,9 +29,9 @@
     padding: 16px;
     font-size: 20px;
     border: none;
-    position: relative;
-    left: 70px;
-    bottom:30px;
+    position: fixed;
+    right: 40;
+    top: 30;
     border-radius: 15px;
     
 }
@@ -160,7 +160,6 @@
 .middleIndex {
     background-image: linear-gradient(rgba(0,0,0,0.527), rgba(0 ,0, 0, 0.25)), url("img/mansionHill.jpg");
     height:600px;
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
