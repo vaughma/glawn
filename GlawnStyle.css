@@ -158,12 +158,13 @@
     padding-right:10px;
 }
 .middleIndex {
-    background-image: linear-gradient(rgba(0,0,0,0.527), rgba(0 ,0, 0, 0.25)), url("img/mansionHill.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.527), rgba(0 ,0, 0, 0.0)), url("img/mansionHill.jpg");
     height:600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: left;
+    position:relative;
     
     
     
@@ -173,7 +174,7 @@
     text-align: center;
     color:#ffffff;
     font-size: 150%;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 40px;
     padding-left: 10px;
     padding-right:10px;
@@ -182,8 +183,8 @@
 .middleIndex > p{
     text-align: center;
     color:#ffffff;
-    font-size: 100%;
-    font-family:Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 40px;
     padding-left: 10px;
     padding-right:10px;
@@ -194,7 +195,7 @@
     text-align: center;
     color:#000000;
     font-size: 150%;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 40px;
     padding-left: 10px;
     padding-right:10px;
@@ -204,15 +205,29 @@
     text-align: center;
     color:#000000;
     font-size: 100%;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 40px;
     padding-left: 10px;
     padding-right:10px;
     padding-bottom:40px;
 }
-.middleIndex > h1 {
-    text-align: center;
-    color:#fffdd0;
+
+
+.galleryButton{
+    background-color:linear-gradient(rgba(0,0,0,0.527), rgba(0 ,0, 0, 0.25));
+    color:white;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    margin: 0%;
+    position: absolute;
+    top:20%;
+    left:50%;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    
+
 }
 
 
