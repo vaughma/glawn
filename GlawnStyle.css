@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 /* header formatting*/
 .header {
     height: 120px;
@@ -20,7 +21,6 @@
 
 /* Dropdown button */
 .dropbtn{
-    
     background-color:rgb(68, 146, 110);
     color:white;
     padding: 16px;
